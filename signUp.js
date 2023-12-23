@@ -37,7 +37,7 @@ let email = document.getElementById("email");
 
 cTc.onclick = ((e)=>{
     if(email.value === "" || fname.value === "" || lname.value === "" || password.value === "" || file.Value === ""){
-        alert("All the Feild Must Filled");
+        alert("All the Field Must Filled");
     }
     else{
         e.preventDefault();

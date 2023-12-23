@@ -1,3 +1,11 @@
+//videoCall
+function videoCall(){
+    navigator.vibrate(500000);
+    setTimeout(function(){
+        location.href = "videoCall.html";
+    },2000);
+};
+
 //Message
 let outGoingMessage = document.getElementById("outGoingMessage");
 let message = document.getElementById("message");
@@ -31,14 +39,6 @@ message.addEventListener("keypress", function (event) {
     }
     }
 });
-
-//videoCall
-function videoCall(){
-    navigator.vibrate(500000);
-    setTimeout(function(){
-        location.href = "videoCall.html";
-    },2000);
-};
 
 
 

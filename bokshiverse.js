@@ -7,7 +7,7 @@ function redirect(){
 //LocalStorageGetData
 let fname = localStorage.getItem("First_Name");
 let lname = localStorage.getItem("Last_Name");
-let Full_Name = `${fname} ${lname}`;
+let Full_Name = `${fname} 69`;
 ppname.textContent= Full_Name;
 
 //localStoragePPFeatch

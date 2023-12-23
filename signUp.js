@@ -36,7 +36,11 @@ let lname = document.getElementById("lname");
 let email = document.getElementById("email");
 
 cTc.onclick = ((e)=>{
-    e.preventDefault();
+    if(email.value === "" || fname.value === "" || lname.value === "" || password.value === "" || file.Value === ""){
+        alert("All the Feild Must Filled");
+    }
+    else{
+        e.preventDefault();
     let a = fname.value;
     let b = lname.value;
     let c = email.value;
@@ -46,4 +50,5 @@ cTc.onclick = ((e)=>{
     localStorage.setItem("Email_Address",c);
     localStorage.setItem("Password",d);
         location = "bokshiverse.html";
+    }
 });

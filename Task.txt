@@ -1,0 +1,5 @@
+1.Video call toggle.
+2.Improve authentication.
+3.Profile picture expanding problem.
+4.Join socket.io
+5.Improve UI

@@ -1,0 +1,141 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+    color: white;
+    font-family: Poppins,sans-serif;
+    background: #222;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.box{
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 280px;
+    height: 500px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+    background-color: black;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+    border-bottom: 1px solid #a7a7a7;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+.pp{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.identity{
+    margin-top: 5px;
+    white-space: nowrap;
+}
+.name{
+    font-weight: bold;
+}
+.previewMessage{
+    font-size: 13px;
+}
+.dot{
+    animation: fade 1s infinite;
+}
+@keyframes fade {
+    0%{
+
+    }
+    
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.logOut button{
+    border: none;
+    color: white;
+    background-color: #a855f7;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    cursor: pointer;
+    font-family: Poppins,sans-serif;
+    border-radius: 5px;
+    height: 40px;
+    width: 65px;
+    font-weight: bolder;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+input{
+    height: 35px;
+    width: 230px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+input:focus{
+    outline: none;
+    border: 2px solid;
+    border-color: #a855f7;
+}
+input::placeholder{
+    font-family: Poppins,sans-serif;
+    padding-left: 5px;
+}
+.searchButton{
+    background-color: #a855f7;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    align-items: center;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.users{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.user{
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #a7a7a7;
+    border-radius: 5px;
+}
+span{
+    font-weight: bolder;
+    font-size: 18px;
+    color: #eab308;
+    margin-top: 5px;
+}

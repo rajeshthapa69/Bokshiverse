@@ -1,0 +1,129 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+    color: white;
+    font-family: Poppins,sans-serif;
+    background: #222;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.box{
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 280px;
+    height: 500px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+    background-color: black;
+}
+.title{
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #a7a7a7;
+    padding-top: 15px;
+    border-radius: 5px;
+    font-family: Cubano,sans-serif;
+}
+span{
+    color: #a855f7;
+}
+.boxBody{
+    margin-top: 20px;
+}
+.name{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.fname{
+    display: flex;
+    flex-direction: column;
+}
+.lname{
+    display: flex;
+    flex-direction: column;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+}
+.password{
+    display: flex;
+    flex-direction: column;
+}
+i{
+    color: black;
+    position: absolute;
+    margin-top: 36px;
+    margin-left: 245px;
+    cursor: pointer;
+}
+#eyeOpen{
+}
+#eyeClose{
+    display: none;
+    margin-right: 2px;
+}
+input{
+    width: 120px;
+    height: 35px;
+    outline: none;
+    border: none;
+    border: 1px solid #c8c4c4;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+input::placeholder{
+    color: #a7a7a7;
+    font-family: Poppins,sans-serif;
+    padding-left: 5px;
+}
+input:focus{
+border: 2px solid #a855f7;
+}
+#file{
+    font-family: Poppins,sans-serif;
+}
+button{
+    border: none;
+    padding: 10px;
+    text-align: center;
+    width: 270px;
+    background-color: #a855f7;
+    color: white;
+    border-radius: 5px;
+    font-family: Poppins,sans-serif;
+    cursor: pointer;
+    font-weight: bolder;
+}
+button:hover{
+    background-color: ;
+    color: white;
+    transition: 1.5s ease;
+}
+.acntStatus{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+a{
+   color: #a855f7;
+}

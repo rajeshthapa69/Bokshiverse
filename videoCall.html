@@ -39,7 +39,9 @@
     },200);
     }
     navigator.mediaDevices.getUserMedia({
-        video: true,
+        video: {
+            width: 1300,
+        },
         audio: true
     }).then(stream =>{
         document.getElementById("pear1").srcObject = stream;

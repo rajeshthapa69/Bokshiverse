@@ -33,15 +33,15 @@ body{
     border-radius: 15px;
     position: absolute;
     transform: translate(-50%,-50%);
-    top: 67%;
-    height: 150px;
+    top: 63%;
+    height: 130px;
     left: 50%;
 }
 .peer2div video{
     border-radius: 15px;
     position: absolute;
     transform: translate(-50%,-50%);
-    top: 33%;
+    top: 31%;
     height: 150px;
     left: 50%;
     border: 2px solid #a855f7;

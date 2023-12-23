@@ -36,7 +36,7 @@ let lname = document.getElementById("lname");
 let email = document.getElementById("email");
 
 cTc.onclick = ((e)=>{
-    if(email.value === "" || fname.value === "" || lname.value === "" || password.value === "" || file.Value === ""){
+    if(email.value === "" || fname.value === "" || lname.value === "" || password.value === "" || file.length === 0){
         alert("All the Field Must Filled");
     }
     else{
